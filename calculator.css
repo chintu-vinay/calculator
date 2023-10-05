@@ -1,0 +1,90 @@
+body
+{
+    background-color: black;
+}
+
+.Text
+{
+    background-color: rgb(40,40,40);
+    color: white;
+    border-style: double;
+    text-align: right;
+    height: 50px;
+    width: 30%;
+    font-size: 2.5em;
+    display: block;
+    margin-top: 1.4em;
+    margin-bottom: 1.4em;
+}
+
+.first-row, .second-row, .third-row, .fourth-row
+{
+    display: block;
+    margin-bottom: 15px;
+}
+
+.button-operands
+{
+    background-color: gray;
+    color: white;
+    padding: 15px 25px;
+    font-size: 30px;
+    border-radius: 50px;
+    border: none;
+    margin-right: 9px;
+    cursor: pointer;
+}
+
+.button-operators
+{
+    background-color: orange;
+    color: white;
+    padding: 15px 25px;
+    font-size: 30px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+.button-result
+{
+    background-color: green;
+    color: white;
+    padding: 15px 25px;
+    font-size: 30px;
+    border-radius: 50px;
+    border: none;
+    margin-right: 17px;
+    cursor: pointer;
+}
+
+.button-remove
+{
+    background-color: red;
+    color: white;
+    padding: 15px 25px;
+    font-size: 30px;
+    border-radius: 50px;
+    border: none;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 1.4em;
+    cursor: pointer;
+}
+
+.button-operands:hover, .button-operators:hover, .button-result:hover, .button-remove:hover
+{
+    opacity: 0.7;
+}
+
+.button-operands:active, .button-operators:active, .button-result:active, .button-remove:active
+{
+    opacity: 0.4;
+}
+
+.total-calc
+{
+    border-color: white;
+    border-style: solid;
+}
